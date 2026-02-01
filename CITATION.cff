@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "AEO Paper, Google Earth Engine scripts for MNDWI water masks, OTSU thresholding, and JRC accuracy evaluation"
+type: software
+authors:
+  - family-names: Cheung
+    given-names: Polly
+    affiliation: Wageningen University and Research
+    email: polly.cheung@wur.nl
+repository-code: "https://github.com/pollycheung/aeo-gee"
+abstract: >
+  Google Earth Engine scripts used to compute quarterly Sentinel-2 MNDWI composites,
+  derive OTSU thresholds from dense MNDWI histograms, and evaluate binary water masks
+  against the JRC Global Surface Water occurrence product using confusion statistics
+  and Cohen's kappa.
+keywords:
+  - Google Earth Engine
+  - Sentinel-2
+  - MNDWI
+  - Otsu thresholding
+  - surface water mapping
+  - JRC Global Surface Water
+license: MIT License
+version: "0.1.0"
+date-released: "2026-02-01"
